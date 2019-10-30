@@ -70,5 +70,49 @@ h1, h2, h3, h4, h5 {
 	padding: 0;
 	max-width: 100;
 	border: 1px solid grey !important;
-
+	text-align: center;
 }
+
+nav {
+	display:inline-block;
+}
+
+nav :hover {
+	background-color: white;
+  	color: black;
+}
+
+nav a {
+	margin: 0 10px;
+	border: 1px solid lightgray;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: blue;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background-color: silver;
+}
+
+.title {
+	display: inline-block;
+}
+
+#secondimg {
+	display: inline-block;
+}
+
+.top-content {
+	display: inline-block;
+}
+
+.bottom-content {
+	display: inline-block;
+}
+
+footer {
+	background: lightskyblue;
+	color: lightslategray;
+}
+
+
