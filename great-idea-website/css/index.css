@@ -105,7 +105,8 @@ nav a {
 .title {
 	display: inline-block;
 	width: 49.5%;
-	vertical-align: middle
+	vertical-align: middle;
+	padding-bottom: 10%;
 }
 
 .title h1 {
@@ -114,7 +115,20 @@ nav a {
 	margin: 6%;
 }
 
-/* .botton-click {this is for the start botton} */
+p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+.button-click {
+	background: white;
+	padding: 15px 32px;
+	cursor: pointer;
+}
 
 #secondimg {
 	display: inline-block;
@@ -124,6 +138,8 @@ nav a {
 /*Top content starts here*/
 .top-content {
 	display: inline-block;
+	border-top: 2px solid black;
+	width:85%;
 }
 
 #Features {
@@ -143,7 +159,7 @@ nav a {
 /*third img should go under here*/
 #middle-img {
 	/* display: inline-block; I THINK THIS IS NOT NECESSARY */
-	/* max-width: 100%; I DONT WHY, THIS I NOT WORKING */
+	/* max-width: 100%; I DONT WHY, THIS I NOT WORKING i want it to display all across*/
 }
 /*bottom content start here*/
 .bottom-content {
@@ -174,9 +190,12 @@ nav a {
 }
 /*here should go the contact style*/
 #Contact {
-	text-align: left !important;
 	/* background: yellow; */
-	padding:0 0 10% 0;
+	padding:10% 0 10% 0;
+	border-top: 2px solid black;
+	width: 85%;
+	margin: auto;
+
 }
 /*footer starts here*/
 footer {
