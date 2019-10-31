@@ -67,15 +67,10 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	max-width: 100;
-	border: 1px solid grey !important;
-	text-align: center;
 }
 
 nav {
-	display:inline-block;
+	display: inline-block;
 }
 
 nav :hover {
@@ -105,8 +100,7 @@ nav a {
 
 .top-content {
 	display: inline-block;
-	width: 25%;
-	margin:auto ;
+	width: 49.5%;
 }
 
 .bottom-content {
