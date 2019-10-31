@@ -75,12 +75,12 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	display:inline-block;
-	background:lightskyblue;
+	/* background:lightskyblue; */
 	width: 100%;
 	padding: 25px;
 }
 
-nav :hover {
+nav >a:hover {
 	background-color: white;
   	color: black;
 }
@@ -95,6 +95,7 @@ nav a {
 	text-decoration: none;
 	margin-bottom: 20px;
 	background-color: silver;
+	border-radius: 8px;
 }
 
 .logo {
@@ -104,14 +105,16 @@ nav a {
 .title {
 	display: inline-block;
 	width: 49.5%;
-	vertical-align: middle;
-	background-color: yellow;
+	vertical-align: middle
 }
 
 .title h1 {
-	font-size: 60px;
+	font-size: 75px;
 	padding: 10% 25% 10% 25%;
+	margin: 6%;
 }
+
+/* .botton-click {this is for the start botton} */
 
 #secondimg {
 	display: inline-block;
@@ -131,31 +134,41 @@ nav a {
 }
 
 #About {
-	vertical-align: middle;
-	width: 25%;
-	margin: 10%;
 	display: inline-block;
+	width: 25%;
+	margin: 4%;
+	vertical-align: middle;
 }
 
 /*third img should go under here*/
-
+#middle-img {
+	/* display: inline-block; I THINK THIS IS NOT NECESSARY */
+	/* max-width: 100%; I DONT WHY, THIS I NOT WORKING */
+}
 /*bottom content start here*/
 .bottom-content {
 	display: inline-block;
-	width: 25%;
-	margin: 10%;
-	vertical-align: middle;
 }
 #Services {
 	display: inline-block;
+	width: 25%;
+	margin: 4%;
+	vertical-align: middle;
+	background: yellow;
 }
 
 #Product {
 	display: inline-block;
+	width: 25%;
+	margin: 4%;
+	vertical-align: middle;
 }
 
 #Vision {
 	display: inline-block;
+	width: 25%;
+	margin: 4%;
+	vertical-align: middle;
 }
 /*footer starts here*/
 footer {
