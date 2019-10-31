@@ -63,14 +63,18 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
 /* Your code starts here! */
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	max-width: 100;
+	border: 1px solid grey !important;
+	text-align: center;
 }
 
 nav {
-	display: inline-block;
+	display:inline-block;
 }
 
 nav :hover {
@@ -100,7 +104,6 @@ nav a {
 
 .top-content {
 	display: inline-block;
-	width: 49.5%;
 }
 
 .bottom-content {
@@ -112,7 +115,3 @@ footer {
 	color: lightslategray;
 }
 
-
-=======
-/* Your code starts here! */
->>>>>>> debe108d87fd78a67987f95ed17af38c89111773
