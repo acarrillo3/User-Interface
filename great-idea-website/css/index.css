@@ -157,7 +157,8 @@ h2 {
 }
 
 /*third img should go under here*/
-#middle-img {
+.middle-img {
+	width: 100vw;
 	/* display: inline-block; I THINK THIS IS NOT NECESSARY */
 	/* max-width: 100%; I DONT WHY, THIS I NOT WORKING i want it to display all across*/
 }
