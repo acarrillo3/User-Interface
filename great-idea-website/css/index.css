@@ -104,6 +104,8 @@ nav a {
 
 .top-content {
 	display: inline-block;
+	width: 25%;
+	margin:auto ;
 }
 
 .bottom-content {
