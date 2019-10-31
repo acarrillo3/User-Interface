@@ -69,12 +69,13 @@ h1, h2, h3, h4, h5 {
 	margin: 0;
 	padding: 0;
 	max-width: 100;
-	border: 1px solid grey !important;
+/*	border: 1px solid grey !important;*/
 	text-align: center;
 }
 
 nav {
 	display:inline-block;
+	background:lightskyblue;
 }
 
 nav :hover {
@@ -96,20 +97,49 @@ nav a {
 
 .title {
 	display: inline-block;
+	width: 49.5%;
+	vertical-align: middle;
+}
+
+.title h1 {
+	font-size: 50px;
 }
 
 #secondimg {
 	display: inline-block;
+	vertical-align: middle;
 }
-
+/*Top content starts here*/
 .top-content {
 	display: inline-block;
 }
 
-.bottom-content {
+#Features {
+	vertical-align: middle;
+	width: 25%;
+	margin: 10%;
 	display: inline-block;
 }
 
+#About {
+	vertical-align: middle;
+	width: 25%;
+	margin: 10%;
+	display: inline-block;
+}
+
+/*third img should go under here*/
+
+/*bottom content start here*/
+.bottom-content {
+	display: inline-block;
+}
+#Services {
+	display: inline-block;
+}
+
+#Produc
+/*footer starts here*/
 footer {
 	background: lightskyblue;
 	color: lightslategray;
