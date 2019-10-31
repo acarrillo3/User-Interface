@@ -148,31 +148,39 @@ nav a {
 /*bottom content start here*/
 .bottom-content {
 	display: inline-block;
+	padding: 10% 0;
 }
 #Services {
 	display: inline-block;
-	width: 25%;
-	margin: 4%;
+	width: 20%;
+	margin: 2%;
 	vertical-align: middle;
-	background: yellow;
+	/* background: yellow; */
 }
 
 #Product {
 	display: inline-block;
-	width: 25%;
-	margin: 4%;
+	width: 20%;
+	margin: 2%;
 	vertical-align: middle;
 }
 
 #Vision {
 	display: inline-block;
-	width: 25%;
-	margin: 4%;
+	width: 20%;
+	margin: 2%;
 	vertical-align: middle;
+	/* background: yellow; */
+}
+/*here should go the contact style*/
+#Contact {
+	text-align: left !important;
+	/* background: yellow; */
+	padding:0 0 10% 0;
 }
 /*footer starts here*/
 footer {
-	background: lightskyblue;
-	color: lightslategray;
+	background: black;
+	color: white;
 }
 
