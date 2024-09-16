@@ -69,15 +69,18 @@ h1, h2, h3, h4, h5 {
 	margin: 0;
 	padding: 0;
 	max-width: 100;
-	border: 1px solid grey !important;
+/*	border: 1px solid grey !important;*/
 	text-align: center;
 }
 
 nav {
 	display:inline-block;
+	/* background:lightskyblue; */
+	width: 100%;
+	padding: 25px;
 }
 
-nav :hover {
+nav >a:hover {
 	background-color: white;
   	color: black;
 }
@@ -92,27 +95,112 @@ nav a {
 	text-decoration: none;
 	margin-bottom: 20px;
 	background-color: silver;
+	border-radius: 8px;
+}
+
+.logo {
+	padding-left: 25%; 
 }
 
 .title {
 	display: inline-block;
+	width: 49.5%;
+	vertical-align: middle;
+	padding-bottom: 10%;
+}
+
+.title h1 {
+	font-size: 75px;
+	padding: 10% 25% 10% 25%;
+	margin: 6%;
+}
+
+p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+.button-click {
+	background: white;
+	padding: 15px 32px;
+	cursor: pointer;
 }
 
 #secondimg {
 	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10%;
 }
-
+/*Top content starts here*/
 .top-content {
 	display: inline-block;
+	border-top: 2px solid black;
+	width:85%;
 }
 
-.bottom-content {
+#Features {
+	vertical-align: middle;
+	width: 25%;
+	margin: 10%;
 	display: inline-block;
 }
 
-footer {
-	background: lightskyblue;
-	color: lightslategray;
+#About {
+	display: inline-block;
+	width: 25%;
+	margin: 4%;
+	vertical-align: middle;
 }
 
+/*third img should go under here*/
+.middle-img {
+	width: 100vw;
+	/* display: inline-block; I THINK THIS IS NOT NECESSARY */
+	/* max-width: 100%; I DONT WHY, THIS I NOT WORKING i want it to display all across*/
+}
+/*bottom content start here*/
+.bottom-content {
+	display: inline-block;
+	padding: 10% 0;
+}
+#Services {
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+	vertical-align: middle;
+	/* background: yellow; */
+}
+
+#Product {
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+	vertical-align: middle;
+}
+
+#Vision {
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+	vertical-align: middle;
+	/* background: yellow; */
+}
+/*here should go the contact style*/
+#Contact {
+	/* background: yellow; */
+	padding:10% 0 10% 0;
+	border-top: 2px solid black;
+	width: 85%;
+	margin: auto;
+
+}
+/*footer starts here*/
+footer {
+	background: black;
+	color: white;
+}
 
